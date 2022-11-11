@@ -1,0 +1,79 @@
+body {
+    width: 1000px;
+    margin: 150px;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid royalblue;
+  }
+
+h1 {
+    color: rgb(68, 146, 224);
+    align-content: center;
+    font-family:arial, verdana, sans-serif; 
+}
+   
+
+    
+    
+
+table, td, th {
+    border : 2px solid black;
+    border-collapse : collapse;
+
+     }
+
+table{
+        tab-size: 700px;
+        font-size:20pt;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        table-layout: auto;
+       
+
+        color: black;
+       
+       
+        }
+
+th, td {
+    height: 10px;
+    vertical-align: bottom;
+    
+        }
+
+
+
+.riscar{
+    text-decoration: line-through;
+}
+     
+
+.centro{
+    text-align: center;
+}
+
+.lado1{
+    text-align: right;
+}
+
+.lado2{
+    text-align: left;
+}
+
+.destaque1{
+    color:greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+.destaque2{
+    color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+
+.destaque3{
+    color:royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
