@@ -1,0 +1,32 @@
+h1{
+   
+    text-decoration: underline;
+    color: blue;
+}
+
+
+table, td, th {
+    border : 2px solid black;
+    border-collapse : collapse;
+
+     }
+
+th, td {
+    height: 10px;
+    vertical-align: bottom;
+    
+        }
+
+table{
+        
+        width: 900px;
+       ;
+        }
+
+        th{
+            
+        }
+
+  
+
+   
