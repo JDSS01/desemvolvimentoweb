@@ -1,0 +1,40 @@
+
+       
+*|*{
+	color: white;
+	}
+
+    body {background-color: black;}
+
+    tr:nth-child(even) {
+    background-color: grey;
+    }
+
+        table {
+                border-collapse: collapse;
+                border-spacing: ;
+                width: 100%;
+                border: 2px solid whitesmoke;
+                }
+
+        th, td {
+                text-align: left;
+                padding: 16px;
+                            }                    
+            input {
+                border-collapse: collapse;
+                border-spacing: 0;
+                border: 1px solid black;
+                background-color: red;
+            }
+.destaque{
+                color:yellow;
+            }
+    span {
+        color: yellow;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+        span.destaque:hover {
+  background-color: red;
+}
+    
