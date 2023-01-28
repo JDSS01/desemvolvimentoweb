@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+}
+.menu {
+    background-color: black;
+    text-align: center;
+  
+}
+.menu ul li {
+    display: inline-block;
+    
+   
+}
+.menu ul li a {
+    display: block;
+    color: red;
+    padding: 30px 10px;
+    /* cor  do texto do menu */
+    
+}
+.main {
+    padding: 50px 0;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color:silver;
+    height: 1000px;
+    /* centro da pagina*/
+}
+.content h1 {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+    color: red;
+    /* cor do cabeçalho*/
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%;
+    position: static ;
+  }
+/* abaixo tem o bloco do shows */
+
+  .container-galeria{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 450px;
+
+  }
+  .item-galeria{
+    position: relative;
+
+  }
+  .item-galeria .img-galeria{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+
+
+  }
+
+  .item-galeria .title-galeria{
+position: absolute;
+background-color: rgba(0,0,0,0);
+left 0;
+bottom: 0;
+width: 100%;
+color: aliceblue;
+padding:10px ;
+font-size: 8px;
+
+  }
+
+  table, td, th {
+    border : 2px solid black;
+    border-collapse : collapse;
+    }

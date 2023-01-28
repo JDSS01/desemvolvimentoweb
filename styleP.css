@@ -1,0 +1,138 @@
+/*css principal */
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+.menu {
+    background-color: #7B68EE;
+    text-align: center;
+  
+}
+.menu ul li {
+    display: inline-block;
+    
+   
+}
+.menu ul li a {
+    display: block;
+    color: whitesmoke;
+    padding: 30px 10px;
+    /* cor  do texto do menu */
+    
+}
+.main {
+    padding: 50px 40px;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+   background-color: whitesmoke;
+    height: 1000px;
+    
+    /* centro da pagina*/
+}
+.content h1 {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #7B68EE;
+    text-align: center;
+    padding: 50px 0;
+    /* cor do cabeçalho*/
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 50%;
+    position: center ;
+  }
+
+  P{
+    colorfonte: blueviolet;
+  }
+  body{ background-image: url('bg.jpg'); }
+  img { opacity : 0.5; }
+
+
+h1{
+  
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+    color: #7B68EE;
+    text-align: center;
+    font-size:x-large;
+}
+
+h2{
+  
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   
+    color: #7B68EE;
+    text-align: center;
+    font-size:large;
+}
+
+.mapCanvas
+{width:500px;height:300px;}
+
+.contato
+{width:500px;height:300px;}
+
+.animado{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: auto;
+       
+}
+.rodapg{
+
+    text-align: center;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.texto0{
+    font-size: x-large;
+    font-family:Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    color: black;
+}
+
+iframe{
+  
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 320px;
+   
+}
+.dicas5{
+
+    text-align: justify;
+
+}
+
+.sobre{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+

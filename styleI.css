@@ -1,0 +1,69 @@
+/*css principal 
+* 
+.menu {
+    background-color: #7B68EE;
+    text-align: center;
+  
+}
+.menu ul li {
+    display: inline-block;
+    
+   
+}
+.menu ul li a {
+    display: block;
+    color: whitesmoke;
+    padding: 30px 10px;
+    /* cor  do texto do menu 
+    
+}
+.main {
+    padding: 50px 40px;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+   background-color: whitesmoke;
+    height: 1000px;
+    
+     centro da pagina
+}
+.content h1 {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #7B68EE;
+    text-align: center;
+    padding: 50px 0;
+     cor do cabeçalho
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+
+  P{
+    colorfonte: blueviolet;
+  } */
+
+
+  {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    position: center ;
+  }
+
+  body{ background-image: url('fotos/fotoindex.jpg'); }
+  img { opacity : 0.5; }
