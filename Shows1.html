@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Sobre</title>
+        <link rel="stylesheet" href="styleS.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="Roteiros.html">Roteiros</a>
+                    </li>
+                    <li>
+                        <a href="Shows.html">Shows</a>
+                    </li>
+                    <li>
+                        <a href="Dicas.html">Dicas</a>
+                    </li>
+                    <li>
+                        <a href="Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        
+        <main class="main">
+            <div>
+            <img src="ttw.jpg"  alt="the twon logo " class="logo">
+            </div>
+
+            <section class="content">
+                <h1>Faça a sua reserva </h1>
+                <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+
+                    <br><label for='NOME'>Nome:</label> 
+                    <input id="NOME" type="text" name="NOME">
+                    E-mail:<input type="email" name="e-mail" placeholder="digite seu e-mail aqui">
+                    <br>Celular:<input type="tel" name="usertel">
+
+                    <select name="dias" id="dias">
+                        <option value="vazio">--</option>
+                        <option value="Sexta"> Sexta-feira</option>
+                        <option value="Sabado"> Sabado</option>
+                        <option value="Domingo"> Domingo</option>
+                    </select>
+                    
+                    <select name="horarios" id="horarios">
+                        <option value="vazio">--</option>
+                        <option value="24h"> 24:00h</option>
+                        
+
+                    </select>
+                    <select name="quantidade" id="quantidade">
+                        <option value="vazio">--</option>
+                        <option value="1"> Um </option>
+                        <option value="2"> Dois</option>
+                        <option value="acima de 3"> Acima de 2</option>
+                    </select>
+
+                    
+                    <br><input type="submit" value="Fazer reserva">
+                </form>
+                <br>
+                <table >
+
+                    <tr>
+                        
+                        <td>Dia </td>
+                        <td>Horaios</td>
+                        <td>Valor </td>
+                        <td>Local </td>
+                
+                    </tr>
+
+                    <tr>
+                        
+                        <td >Sexta-feira</td>
+                        <td rowspan="3"> 24:00h</td>
+                        <td rowspan="3"> R$ 350,00</td>
+                        <td rowspan="3">Juiz de Fora</td>
+
+                    </tr>
+                    <tr>
+        
+                        <td >Sabado</td>
+                        
+                        
+                    </tr>
+                    
+                    <tr>
+        
+                        <td >Domingo</td>
+                        
+                  
+                    </tr>
+        
+                   
+                </table>
+        
+
+                </section>
+                <footer class="rodapg">
+                    <a href="Shows.html" > Voltar </a>
+                </footer>
+            </main>
+        <footer class="footer">
+            <p>Todos os direitos reservados</p>
+        </footer>
+
+
+       
+    </body>
+</html>
