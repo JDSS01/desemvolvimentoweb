@@ -7,7 +7,7 @@
     width: 100%;
 }
 .menu {
-    background-color: rgba(31, 30, 30, 0.20);
+    background-color: rgba(66, 66, 66, 0.2);
     text-align: center;
   
 }
@@ -30,7 +30,7 @@
     width: 70%;
     margin: auto;
     padding: 30px;
-    background-color: rgba(31, 30, 30, 0.20);
+    background-color: rgba(66, 66, 66, 0.2);
     height: flex;
     color: #7B68EE;
     /* centro da pagina*/
@@ -40,7 +40,7 @@
   width: 50%;
   margin: auto;
   padding: 30px;
-  background-color: rgba(31, 30, 30, 0.20);
+  background-color: rgba(66, 66, 66, 0.2);
   height: flex;
   color: #7B68EE;
   /* centro da pagina*/
@@ -53,6 +53,7 @@
     text-align: center;
     padding: 50px 0;
     color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* cor do cabeçalho*/
 }
 
